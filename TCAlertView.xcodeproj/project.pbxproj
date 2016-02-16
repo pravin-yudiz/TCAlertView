@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A77F8AF71C73B200008D13ED /* toast.png in Resources */ = {isa = PBXBuildFile; fileRef = A77F8AF41C73B200008D13ED /* toast.png */; };
+		A77F8AF81C73B200008D13ED /* twobutton.png in Resources */ = {isa = PBXBuildFile; fileRef = A77F8AF51C73B200008D13ED /* twobutton.png */; };
+		A77F8AF91C73B200008D13ED /* multibutton.png in Resources */ = {isa = PBXBuildFile; fileRef = A77F8AF61C73B200008D13ED /* multibutton.png */; };
 		A7F85C7C1C739413006985EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F85C7B1C739413006985EB /* main.m */; };
 		A7F85C7F1C739413006985EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F85C7E1C739413006985EB /* AppDelegate.m */; };
 		A7F85C821C739413006985EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F85C811C739413006985EB /* ViewController.m */; };
@@ -28,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A77F8AF41C73B200008D13ED /* toast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toast.png; sourceTree = "<group>"; };
+		A77F8AF51C73B200008D13ED /* twobutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twobutton.png; sourceTree = "<group>"; };
+		A77F8AF61C73B200008D13ED /* multibutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = multibutton.png; sourceTree = "<group>"; };
 		A7F85C761C739413006985EB /* TCAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7F85C7A1C739413006985EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7F85C7B1C739413006985EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,6 +69,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A77F8AF31C73B1DE008D13ED /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A77F8AF41C73B200008D13ED /* toast.png */,
+				A77F8AF51C73B200008D13ED /* twobutton.png */,
+				A77F8AF61C73B200008D13ED /* multibutton.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		A7F85C6D1C739413006985EB = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +100,7 @@
 		A7F85C781C739413006985EB /* TCAlertView */ = {
 			isa = PBXGroup;
 			children = (
+				A77F8AF31C73B1DE008D13ED /* images */,
 				A7F85CA21C7397D7006985EB /* Source */,
 				A7F85C7D1C739413006985EB /* AppDelegate.h */,
 				A7F85C7E1C739413006985EB /* AppDelegate.m */,
@@ -214,7 +231,10 @@
 			files = (
 				A7F85C851C739413006985EB /* Main.storyboard in Resources */,
 				A7F85C8A1C739413006985EB /* LaunchScreen.xib in Resources */,
+				A77F8AF91C73B200008D13ED /* multibutton.png in Resources */,
+				A77F8AF81C73B200008D13ED /* twobutton.png in Resources */,
 				A7F85C871C739413006985EB /* Images.xcassets in Resources */,
+				A77F8AF71C73B200008D13ED /* toast.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +450,7 @@
 				A7F85C9B1C739413006985EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7F85C9C1C739413006985EB /* Build configuration list for PBXNativeTarget "TCAlertViewTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +459,7 @@
 				A7F85C9E1C739413006985EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

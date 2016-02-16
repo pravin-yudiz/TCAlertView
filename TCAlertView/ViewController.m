@@ -19,7 +19,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    arrFeature = [[NSArray alloc] initWithObjects:@"Toast Message Wthout Button",@"Toast Message With Button",@"One Button",@"Two Button",@"Multiple Button", nil];
+    arrFeature = [[NSArray alloc] initWithObjects:@"Toast Message Without Button",@"Toast Message With Button",@"One Button",@"Two Button",@"Multiple Button", nil];
     CGSize screen = [UIScreen mainScreen].bounds.size;
     
     tblList = [[UITableView alloc] initWithFrame:CGRectMake(0,0,screen.width,screen.height)];
