@@ -14,4 +14,5 @@
 typedef void (^ButtonClick)(int buttonIndex);
 @property (nonatomic, copy) void (^btnClick)(int);
 -(void)show:(NSString*)title message:(NSString*)message buttonTitles:(NSArray*)buttons btnClick:(void (^)(int))btnIndex;
+-(void)show:(NSString *)title message:(NSString *)message buttonTitles:(NSArray*)buttons interval:(float)time btnClick:(void (^)(int))btnIndex;
 @end
