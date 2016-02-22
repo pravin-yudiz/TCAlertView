@@ -4,7 +4,7 @@ TCAlertView is alternative of UIAlertView,main feature is you can no need to imp
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ## Feature of TCAlertView
 
@@ -20,6 +20,7 @@ These instructions will get you a copy of the project up and running on your loc
       NSLog(@"button Index %d",buttonIndex);
   }];
 ```
+![Toast message](https://github.com/technocracker/TCAlertView/blob/master/doc/toast%20messge.png)
 
 * Toast Message With Button
 ```
@@ -27,6 +28,9 @@ These instructions will get you a copy of the project up and running on your loc
                 NSLog(@"button Index %d",buttonIndex);
             }];
 ```
+
+![one or more button](https://github.com/technocracker/TCAlertView/blob/master/doc/one%20or%20two%20button.png)
+
 * UIAlertView With One Button
 ```
  [[TCAlertView sharedInstance] show:@"Title" message:@"TCAlertView Message With One Button" buttonTitles:@[@"Ok"] btnClick:^(int buttonIndex) {
@@ -47,3 +51,6 @@ These instructions will get you a copy of the project up and running on your loc
                 NSLog(@"button Index %d",buttonIndex);
             }];
 ```
+
+![Multiple button](https://github.com/technocracker/TCAlertView/blob/master/doc/multiple%20button.png)
+
