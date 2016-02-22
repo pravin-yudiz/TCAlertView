@@ -6,7 +6,7 @@ TCAlertView is alternative of UIAlertView,main feature is you can no need to imp
 
 # Feature of TCAlertView
 
-Toast Message Without Button
+<h1>Toast Message Without Button
 Toast Message With Button
 UIAlertView With One Button
 UIAlertView With Two Button
