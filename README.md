@@ -41,7 +41,7 @@ These instructions will get you a copy of the project up and running on your loc
             }];
 ```
 
-* UIAlertView With Two ButtonUIAlertView With Multiple Button
+* UIAlertView With Multiple Button
 ```
 [[TCAlertView sharedInstance] show:@"Title" message:@"TCAlertView Message With Multiple Button" buttonTitles:@[@"One",@"Two",@"Three",@"Four",@"Five"] btnClick:^(int buttonIndex) {
                 NSLog(@"button Index %d",buttonIndex);
