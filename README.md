@@ -14,11 +14,38 @@ These instructions will get you a copy of the project up and running on your loc
 * UIAlertView With Two Button
 * UIAlertView With Multiple Button
 
-** Toast Message Without Button
+* Toast Message Without Button
 ```
  [[TCAlertView sharedInstance] show:@"Toast Messahe" message:@"This toast message" buttonTitles:@[] interval:3.0f btnClick:^(int buttonIndex) {
       NSLog(@"button Index %d",buttonIndex);
   }];
+```
+
+* Toast Message With Button
+```
+ [[TCAlertView sharedInstance] show:@"Toast Messahe" message:@"This toast message" buttonTitles:@[@"OK",@"Cancel"] interval:3.0f btnClick:^(int buttonIndex) {
+                NSLog(@"button Index %d",buttonIndex);
+            }];
+```
+* UIAlertView With One Button
+```
+ [[TCAlertView sharedInstance] show:@"Title" message:@"TCAlertView Message With One Button" buttonTitles:@[@"Ok"] btnClick:^(int buttonIndex) {
+                NSLog(@"button Index %d",buttonIndex);
+            }];
+```
+
+* UIAlertView With Two Button
+```
+ [[TCAlertView sharedInstance] show:@"Title" message:@"TCAlertView Message With Two Button" buttonTitles:@[@"Ok",@"Cancel"] btnClick:^(int buttonIndex) {
+                NSLog(@"button Index %d",buttonIndex);
+            }];
+```
+
+* UIAlertView With Two ButtonUIAlertView With Multiple Button
+```
+[[TCAlertView sharedInstance] show:@"Title" message:@"TCAlertView Message With Multiple Button" buttonTitles:@[@"One",@"Two",@"Three",@"Four",@"Five"] btnClick:^(int buttonIndex) {
+                NSLog(@"button Index %d",buttonIndex);
+            }];
 ```
 
 
