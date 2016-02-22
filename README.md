@@ -12,8 +12,7 @@ These instructions will get you a copy TCAlertView.h and TCAlertView.m  iles in 
 * Toast Message With Button
 * UIAlertView With One Button
 * UIAlertView With Two Button
-* UIAlertView With Multiple Button
-
+* UIAlertView With Multiple Button <br/><br/>
 * Toast Message Without Button
 ```
  [[TCAlertView sharedInstance] show:@"Toast Messahe" message:@"This toast message" buttonTitles:@[] interval:3.0f btnClick:^(int buttonIndex) {
