@@ -13,53 +13,15 @@ These instructions will get you a copy of the project up and running on your loc
 * UIAlertView With One Button
 * UIAlertView With Two Button
 * UIAlertView With Multiple Button
+
+** Toast Message Without Button
 ```
  [[TCAlertView sharedInstance] show:@"Toast Messahe" message:@"This toast message" buttonTitles:@[] interval:3.0f btnClick:^(int buttonIndex) {
       NSLog(@"button Index %d",buttonIndex);
   }];
 ```
 
-```
-Give the example
-```
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* Dropwizard - Bla bla bla
-* Maven - Maybe
-* Welcome to the TCAlertView
 
 ## Contributing
 
