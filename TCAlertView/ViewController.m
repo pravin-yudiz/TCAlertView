@@ -49,12 +49,12 @@
     switch (indexPath.row)
     {
         case 0:
-            [[TCAlertView sharedInstance] show:@"Toast Messahe" message:@"This toast message" buttonTitles:@[] interval:3.0f btnClick:^(int buttonIndex) {
+            [[TCAlertView sharedInstance] show:@"Toast Message" message:@"This toast message" buttonTitles:@[] interval:3.0f btnClick:^(int buttonIndex) {
                 NSLog(@"button Index %d",buttonIndex);
             }];
             break;
         case 1:
-            [[TCAlertView sharedInstance] show:@"Toast Messahe" message:@"This toast message" buttonTitles:@[@"OK",@"Cancel"] interval:3.0f btnClick:^(int buttonIndex) {
+            [[TCAlertView sharedInstance] show:@"Toast Message" message:@"This toast message" buttonTitles:@[@"OK",@"Cancel"] interval:3.0f btnClick:^(int buttonIndex) {
                 NSLog(@"button Index %d",buttonIndex);
             }];
             break;
